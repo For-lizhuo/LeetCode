@@ -1,4 +1,4 @@
-import { ListNode } from "./dataStructure";
+import { ListNode } from "./dataStructure/index";
 
 function reversePrint(head: ListNode | null): number[] {
   let p = new ListNode(),q = head,length:number = 0;
